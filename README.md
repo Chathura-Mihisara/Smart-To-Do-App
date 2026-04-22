@@ -65,18 +65,5 @@ Example:
 
 ---
 
-## 🔮 Future Improvements
 
-* 🔍 Task filtering (All / Completed / Pending)
-* 🧠 Better state management
-* 📅 Add due dates & reminders
-* 🎯 Drag & drop task sorting
-* ⚛️ Convert into React app
 
----
-
-## 👨‍💻 Author
-
-Made by **Patiyo** 🚀
-
----
