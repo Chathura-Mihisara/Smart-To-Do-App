@@ -48,7 +48,7 @@ Smart-To-Do-App/
 Example:
 
 ```
-![App Screenshot](screenshot/screenshot1.png)
+![App Screenshot](screenshots/screenshot1.png)
 ```
 
 ---
