@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(180deg, #0495be, #0252b4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+    background-color: #201f1f;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 20px 20px 20px;
+    background: linear-gradient(180deg, #00c6ff, #0072ff);
+    border: #0000006d solid 0px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(5, 5, 5, 0.368);
+}
+
+.container h1{
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.inputContainer{
+    display: flex;
+    margin-bottom: 20px;
+    gap: 5px;
+    
+}
+
+.inputContainer input{
+    padding: 10px;
+    border: #000000 solid 0px;
+
+    border-radius: 10px;
+    width: 200px;
+}
+
+.inputContainer input:focus {
+    border-color: #0072ff;
+    box-shadow: 0 0 0 3px rgba(0, 114, 255, 0.15);
+}
+
+.inputContainer input::placeholder {
+    color: #999;
+}
+
+
+.inputContainer button{
+    padding: 10px 10px;
+    width: 50px;
+    height: 50px;
+    border: none;
+    background-color: #076bf7;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.inputContainer button:hover{
+    transform:scale(1.01) ;
+    box-shadow: 0 0 5px rgba(58, 56, 56, 0.448);
+}
+
+.inputContainer button:active{
+    transform:scale(1.01) ;
+    background-color: #0849a4;
+    /* box-shadow: inset 0px 5px 5px rgba(58, 56, 56, 0.448); */
+}
+
+#taskList{
+    width: 100%;
+    height: 264px;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    border: #000000 solid 0px;
+    overflow-y: auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.091); 
+}
+
+#taskList::-webkit-scrollbar {
+    width: 0px;
+    transition: 0.3s ease;
+}
+
+#taskList::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+#taskList::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg, #00c6ff, #0072ff);
+    border-radius: 20px;
+    
+}
+
+#taskList:hover::-webkit-scrollbar {
+    width: 6px;
+}
+
+
+.buttonbox{
+    display: flex;
+    gap: 2px;
+
+    opacity: 0;
+    transform: translateX(10px); /* small slide */
+    transition: 0.3s ease;
+
+    pointer-events: none; /* prevent clicking when hidden */
+}
+
+.listItem{
+    
+    display: flex;
+    margin: 5px;
+    margin-bottom: 0px;
+    
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+    padding-right: 6px;
+    border: #00000044 solid 0px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(13, 7, 7, 0.209);
+    transition:  0.3s ease;
+}
+
+.listItem:hover{
+    background: linear-gradient(180deg, #00c6ff, #0072ff);
+    scale: 1.01;
+    
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.251);
+    opacity: 0.9;
+}
+
+.listItem:hover .buttonbox{
+    opacity: 1;
+    transform: translateX(0);
+    pointer-events: auto;
+}
+
+.buttonbox button{
+    padding: 2px;
+    border: none;
+    background-color: transparent;
+    color: white;
+    border-radius: 5px;
+    border: #00000044 solid 0px;
+    cursor: pointer;
+}
+
+.buttonbox button:hover{
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(56, 52, 52, 0.5);
+}
+
+
+.completed .task-label {
+    text-decoration-line: line-through;
+    text-decoration-color: #ff0404c2;
+    text-decoration-thickness: 2px;
+    text-decoration-style: solid;
+        
+}
+
+.message{
+    display: none;
+    margin-left: 10px;
+    /* display: flex; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 20px 20px 20px;
+    background: linear-gradient(180deg, #00c6ff, #0072ff);
+    border: #0000006d solid 0px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(5, 5, 5, 0.368);
+}
+
+.message h1{
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.message button{
+    padding: 10px 10px;
+    width: 70px;
+    height: 50px;
+    border: none;
+    background-color: #076bf7;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.messagebtn{
+    display: flex;
+    width: 100%;
+    gap: 5px;
+    align-items: right;
+    justify-content: right;
+}
