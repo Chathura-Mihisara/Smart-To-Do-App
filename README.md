@@ -31,7 +31,7 @@ This app helps users manage daily tasks efficiently with features like adding, e
 ## 📂 Project Structure
 
 ```
-todo-app/
+Smart-To-Do-App/
 │
 ├── index.html
 ├── style.css
@@ -43,12 +43,12 @@ todo-app/
 
 ## 📸 Screenshots
 
-> *(Add screenshots here later)*
+
 
 Example:
 
 ```
-![App Screenshot](screenshot.png)
+![App Screenshot](screenshot/screenshot1.png)
 ```
 
 ---
