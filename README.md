@@ -15,7 +15,6 @@ This app helps users manage daily tasks efficiently with features like adding, e
 * 💾 Data saved using localStorage
 * 🎨 Smooth UI animations and hover effects
 * 🧊 Custom scrollbar design
-* 📱 Responsive and clean interface
 
 ---
 
@@ -51,9 +50,12 @@ Smart-To-Do-App/
 
 Example:
 
-```
-<img src="screenshots/screenshot1.png" width="600">
-```
+<div class = " display : flex;
+               flex-direction : row; 
+               gap : 5px">
+<img src="screenshots/screenshot - addTask.png" width=300px>
+<img src="screenshots/screenshot - doneTask.png" width=300px>
+</div>
 
 ---
 
@@ -61,7 +63,7 @@ Example:
 
 1. Download or clone this repository
 2. Open `index.html` in your browser
-3. Start adding tasks 🎉
+3. Start adding tasks 
 
 ---
 
