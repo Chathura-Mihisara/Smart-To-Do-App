@@ -52,7 +52,7 @@ Smart-To-Do-App/
 Example:
 
 ```
-![App Screenshot](screenshots/screenshot1.png)
+<img src="screenshots/screenshot1.png" width="600">
 ```
 
 ---
