@@ -37,6 +37,10 @@ Smart-To-Do-App/
 ├── style.css
 ├── script.js
 └── README.md
+└── screenshots/
+    └── screenshot1.png
+    └── screenshot2.png
+
 ```
 
 ---
